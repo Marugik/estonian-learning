@@ -758,6 +758,146 @@ body_parts: {
             }
         ]
     },
+ health: {
+        name: "Здоровье",
+        questions: [
+            {
+                estonian: "haige",
+                russian: "больной",
+                answers: {
+                    toEstonian: ["terve", "haige", "väsinud", "nõrk"],
+                    toRussian: ["здоровый", "больной", "уставший", "слабый"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "terve",
+                russian: "здоровый",
+                answers: {
+                    toEstonian: ["haige", "terve", "tugev", "nõrk"],
+                    toRussian: ["больной", "здоровый", "сильный", "слабый"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "palavik",
+                russian: "температура",
+                answers: {
+                    toEstonian: ["nohu", "palavik", "köha", "valu"],
+                    toRussian: ["насморк", "температура", "кашель", "боль"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "nohu",
+                russian: "насморк",
+                answers: {
+                    toEstonian: ["köha", "nohu", "palavik", "gripp"],
+                    toRussian: ["кашель", "насморк", "температура", "грипп"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "köha",
+                russian: "кашель",
+                answers: {
+                    toEstonian: ["nohu", "palavik", "köha", "gripp"],
+                    toRussian: ["насморк", "температура", "кашель", "грипп"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "valu",
+                russian: "боль",
+                answers: {
+                    toEstonian: ["haige", "valu", "palavik", "nõrkus"],
+                    toRussian: ["больной", "боль", "температура", "слабость"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "peavalu",
+                russian: "головная боль",
+                answers: {
+                    toEstonian: ["kõhuvalu", "peavalu", "hambavalu", "kurgu valu"],
+                    toRussian: ["боль в животе", "головная боль", "зубная боль", "боль в горле"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "kõhuvalu",
+                russian: "боль в животе",
+                answers: {
+                    toEstonian: ["peavalu", "kõhuvalu", "seljavalu", "hambavalu"],
+                    toRussian: ["головная боль", "боль в животе", "боль в спине", "зубная боль"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "hambavalu",
+                russian: "зубная боль",
+                answers: {
+                    toEstonian: ["peavalu", "kõhuvalu", "hambavalu", "kurgu valu"],
+                    toRussian: ["головная боль", "боль в животе", "зубная боль", "боль в горле"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "kurgu valu",
+                russian: "боль в горле",
+                answers: {
+                    toEstonian: ["nohu", "köha", "palavik", "kurgu valu"],
+                    toRussian: ["насморк", "кашель", "температура", "боль в горле"]
+                },
+                correct: 3
+            },
+            {
+                estonian: "gripp",
+                russian: "грипп",
+                answers: {
+                    toEstonian: ["nohu", "köha", "gripp", "palavik"],
+                    toRussian: ["насморк", "кашель", "грипп", "температура"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "allergia",
+                russian: "аллергия",
+                answers: {
+                    toEstonian: ["nohu", "gripp", "allergia", "köha"],
+                    toRussian: ["насморк", "грипп", "аллергия", "кашель"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "ravim",
+                russian: "лекарство",
+                answers: {
+                    toEstonian: ["tablett", "ravim", "retsept", "süst"],
+                    toRussian: ["таблетка", "лекарство", "рецепт", "укол"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "tablett",
+                russian: "таблетка",
+                answers: {
+                    toEstonian: ["ravim", "tablett", "süst", "retsept"],
+                    toRussian: ["лекарство", "таблетка", "укол", "рецепт"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "retsept",
+                russian: "рецепт",
+                answers: {
+                    toEstonian: ["ravim", "tablett", "retsept", "süst"],
+                    toRussian: ["лекарство", "таблетка", "рецепт", "укол"]
+                },
+                correct: 2
+            }
+        ]
+    },
     numbers: {
         name: "Числа",
         questions: [
@@ -1663,6 +1803,249 @@ clothes: {
     furniture: {
         name: "Мебель и предметы интерьера",
         questions: [
+{
+                estonian: "laud",
+                russian: "стол",
+                answers: {
+                    toEstonian: ["tool", "laud", "kapp", "voodi"],
+                    toRussian: ["стул", "стол", "шкаф", "кровать"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "tool",
+                russian: "стул",
+                answers: {
+                    toEstonian: ["laud", "tool", "diivan", "kapp"],
+                    toRussian: ["стол", "стул", "диван", "шкаф"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "voodi",
+                russian: "кровать",
+                answers: {
+                    toEstonian: ["diivan", "tool", "voodi", "kapp"],
+                    toRussian: ["диван", "стул", "кровать", "шкаф"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "diivan",
+                russian: "диван",
+                answers: {
+                    toEstonian: ["tool", "voodi", "diivan", "tugitool"],
+                    toRussian: ["стул", "кровать", "диван", "кресло"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "kapp",
+                russian: "шкаф",
+                answers: {
+                    toEstonian: ["riiul", "kapp", "laud", "tool"],
+                    toRussian: ["полка", "шкаф", "стол", "стул"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "riiul",
+                russian: "полка",
+                answers: {
+                    toEstonian: ["kapp", "riiul", "laud", "peegel"],
+                    toRussian: ["шкаф", "полка", "стол", "зеркало"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "peegel",
+                russian: "зеркало",
+                answers: {
+                    toEstonian: ["lamp", "peegel", "pilt", "vaip"],
+                    toRussian: ["лампа", "зеркало", "картина", "ковёр"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "lamp",
+                russian: "лампа",
+                answers: {
+                    toEstonian: ["peegel", "lamp", "kardin", "kell"],
+                    toRussian: ["зеркало", "лампа", "штора", "часы"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "kardin",
+                russian: "штора",
+                answers: {
+                    toEstonian: ["vaip", "kardin", "pilt", "lamp"],
+                    toRussian: ["ковёр", "штора", "картина", "лампа"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "vaip",
+                russian: "ковёр",
+                answers: {
+                    toEstonian: ["kardin", "pilt", "vaip", "peegel"],
+                    toRussian: ["штора", "картина", "ковёр", "зеркало"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "pilt",
+                russian: "картина",
+                answers: {
+                    toEstonian: ["peegel", "vaip", "pilt", "kardin"],
+                    toRussian: ["зеркало", "ковёр", "картина", "штора"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "tugitool",
+                russian: "кресло",
+                answers: {
+                    toEstonian: ["tool", "diivan", "tugitool", "voodi"],
+                    toRussian: ["стул", "диван", "кресло", "кровать"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "madrats",
+                russian: "матрас",
+                answers: {
+                    toEstonian: ["padi", "madrats", "tekk", "lina"],
+                    toRussian: ["подушка", "матрас", "одеяло", "простыня"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "padi",
+                russian: "подушка",
+                answers: {
+                    toEstonian: ["tekk", "padi", "lina", "madrats"],
+                    toRussian: ["одеяло", "подушка", "простыня", "матрас"]
+                },
+                correct: 1
+            },
+{
+                estonian: "köögikapp",
+                russian: "кухонный шкаф",
+                answers: {
+                    toEstonian: ["riiul", "köögikapp", "kapp", "laud"],
+                    toRussian: ["полка", "кухонный шкаф", "шкаф", "стол"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "nõudekapp",
+                russian: "шкаф для посуды",
+                answers: {
+                    toEstonian: ["köögikapp", "nõudekapp", "riiul", "kapp"],
+                    toRussian: ["кухонный шкаф", "шкаф для посуды", "полка", "шкаф"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "külmkapp",
+                russian: "холодильник",
+                answers: {
+                    toEstonian: ["pliit", "külmkapp", "ahi", "nõudepesumasin"],
+                    toRussian: ["плита", "холодильник", "духовка", "посудомоечная машина"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "köögiriiul",
+                russian: "кухонная полка",
+                answers: {
+                    toEstonian: ["köögikapp", "köögiriiul", "nõudekapp", "riiul"],
+                    toRussian: ["кухонный шкаф", "кухонная полка", "шкаф для посуды", "полка"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "söögilaud",
+                russian: "обеденный стол",
+                answers: {
+                    toEstonian: ["köögikapp", "söögilaud", "kirjutuslaud", "laud"],
+                    toRussian: ["кухонный шкаф", "обеденный стол", "письменный стол", "стол"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "kirjutuslaud",
+                russian: "письменный стол",
+                answers: {
+                    toEstonian: ["söögilaud", "kirjutuslaud", "arvutilaud", "laud"],
+                    toRussian: ["обеденный стол", "письменный стол", "компьютерный стол", "стол"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "arvutilaud",
+                russian: "компьютерный стол",
+                answers: {
+                    toEstonian: ["kirjutuslaud", "arvutilaud", "söögilaud", "laud"],
+                    toRussian: ["письменный стол", "компьютерный стол", "обеденный стол", "стол"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "kontoritool",
+                russian: "офисный стул",
+                answers: {
+                    toEstonian: ["tool", "kontoritool", "tugitool", "töötool"],
+                    toRussian: ["стул", "офисный стул", "кресло", "рабочий стул"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "raamaturiiul",
+                russian: "книжная полка",
+                answers: {
+                    toEstonian: ["riiul", "raamaturiiul", "kapp", "köögiriiul"],
+                    toRussian: ["полка", "книжная полка", "шкаф", "кухонная полка"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "sahtlikapp",
+                russian: "комод",
+                answers: {
+                    toEstonian: ["kapp", "sahtlikapp", "riiul", "köögikapp"],
+                    toRussian: ["шкаф", "комод", "полка", "кухонный шкаф"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "töölaud",
+                russian: "рабочий стол",
+                answers: {
+                    toEstonian: ["kirjutuslaud", "töölaud", "arvutilaud", "söögilaud"],
+                    toRussian: ["письменный стол", "рабочий стол", "компьютерный стол", "обеденный стол"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "dokumentide kapp",
+                russian: "шкаф для документов",
+                answers: {
+                    toEstonian: ["raamaturiiul", "dokumentide kapp", "sahtlikapp", "kapp"],
+                    toRussian: ["книжная полка", "шкаф для документов", "комод", "шкаф"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "tekk",
+                russian: "одеяло",
+                answers: {
+                    toEstonian: ["padi", "lina", "tekk", "madrats"],
+                    toRussian: ["подушка", "простыня", "одеяло", "матрас"]
+                },
+                correct: 2
+            },
             {
                 estonian: "laud",
                 russian: "стол",
@@ -2259,12 +2642,422 @@ clothes: {
                 },
                 correct: 2
             },
+ {
+                estonian: "õde",
+                russian: "сестра",
+                answers: {
+                    toEstonian: ["vend", "ema", "õde", "isa"],
+                    toRussian: ["брат", "мама", "сестра", "папа"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "vend",
+                russian: "брат",
+                answers: {
+                    toEstonian: ["õde", "isa", "vend", "ema"],
+                    toRussian: ["сестра", "папа", "брат", "мама"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "vanaema",
+                russian: "бабушка",
+                answers: {
+                    toEstonian: ["vanaisa", "vanaema", "tädi", "onu"],
+                    toRussian: ["дедушка", "бабушка", "тётя", "дядя"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "vanaisa",
+                russian: "дедушка",
+                answers: {
+                    toEstonian: ["vanaema", "vanaisa", "onu", "tädi"],
+                    toRussian: ["бабушка", "дедушка", "дядя", "тётя"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "tädi",
+                russian: "тётя",
+                answers: {
+                    toEstonian: ["onu", "vanaema", "tädi", "õde"],
+                    toRussian: ["дядя", "бабушка", "тётя", "сестра"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "onu",
+                russian: "дядя",
+                answers: {
+                    toEstonian: ["tädi", "vanaisa", "onu", "vend"],
+                    toRussian: ["тётя", "дедушка", "дядя", "брат"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "nõbu",
+                russian: "двоюродный брат/сестра",
+                answers: {
+                    toEstonian: ["õde", "vend", "nõbu", "tädi"],
+                    toRussian: ["сестра", "брат", "двоюродный брат/сестра", "тётя"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "abikaasa",
+                russian: "супруг/супруга",
+                answers: {
+                    toEstonian: ["mees", "naine", "abikaasa", "laps"],
+                    toRussian: ["муж", "жена", "супруг/супруга", "ребёнок"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "mees",
+                russian: "муж",
+                answers: {
+                    toEstonian: ["naine", "mees", "poeg", "tütar"],
+                    toRussian: ["жена", "муж", "сын", "дочь"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "naine",
+                russian: "жена",
+                answers: {
+                    toEstonian: ["mees", "naine", "ema", "tütar"],
+                    toRussian: ["муж", "жена", "мама", "дочь"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "laps",
+                russian: "ребёнок",
+                answers: {
+                    toEstonian: ["poeg", "tütar", "laps", "beebi"],
+                    toRussian: ["сын", "дочь", "ребёнок", "малыш"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "poeg",
+                russian: "сын",
+                answers: {
+                    toEstonian: ["tütar", "poeg", "vend", "õde"],
+                    toRussian: ["дочь", "сын", "брат", "сестра"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "tütar",
+                russian: "дочь",
+                answers: {
+                    toEstonian: ["poeg", "tütar", "õde", "vend"],
+                    toRussian: ["сын", "дочь", "сестра", "брат"]
+                },
+                correct: 1
+            },
             {
                 estonian: "sugulane",
                 russian: "родственник",
                 answers: {
                     toEstonian: ["pere", "sugulane", "sõber", "naaber"],
                     toRussian: ["семья", "родственник", "друг", "сосед"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "pere",
+                russian: "семья",
+                answers: {
+                    toEstonian: ["sugulane", "pere", "vanemad", "lapsed"],
+                    toRussian: ["родственник", "семья", "родители", "дети"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "vanemad",
+                russian: "родители",
+                answers: {
+                    toEstonian: ["lapsed", "vanemad", "vanavanemad", "pere"],
+                    toRussian: ["дети", "родители", "бабушка и дедушка", "семья"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "sugulane",
+                russian: "родственник",
+                answers: {
+                    toEstonian: ["pere", "sugulane", "sõber", "naaber"],
+                    toRussian: ["семья", "родственник", "друг", "сосед"]
+                },
+                correct: 1
+            }
+        ]
+    },
+ kitchen_items: {
+        name: "Кухонные принадлежности",
+        questions: [
+            {
+                estonian: "kahvel",
+                russian: "вилка",
+                answers: {
+                    toEstonian: ["lusikas", "kahvel", "nuga", "taldrik"],
+                    toRussian: ["ложка", "вилка", "нож", "тарелка"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "lusikas",
+                russian: "ложка",
+                answers: {
+                    toEstonian: ["kahvel", "lusikas", "nuga", "tass"],
+                    toRussian: ["вилка", "ложка", "нож", "чашка"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "nuga",
+                russian: "нож",
+                answers: {
+                    toEstonian: ["kahvel", "lusikas", "nuga", "klaas"],
+                    toRussian: ["вилка", "ложка", "нож", "стакан"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "taldrik",
+                russian: "тарелка",
+                answers: {
+                    toEstonian: ["tass", "kauss", "taldrik", "klaas"],
+                    toRussian: ["чашка", "миска", "тарелка", "стакан"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "kauss",
+                russian: "миска",
+                answers: {
+                    toEstonian: ["taldrik", "kauss", "tass", "kann"],
+                    toRussian: ["тарелка", "миска", "чашка", "кувшин"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "tass",
+                russian: "чашка",
+                answers: {
+                    toEstonian: ["klaas", "tass", "kann", "kauss"],
+                    toRussian: ["стакан", "чашка", "кувшин", "миска"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "klaas",
+                russian: "стакан",
+                answers: {
+                    toEstonian: ["tass", "kann", "klaas", "pudel"],
+                    toRussian: ["чашка", "кувшин", "стакан", "бутылка"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "kann",
+                russian: "кувшин",
+                answers: {
+                    toEstonian: ["pudel", "kann", "klaas", "tass"],
+                    toRussian: ["бутылка", "кувшин", "стакан", "чашка"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "pott",
+                russian: "кастрюля",
+                answers: {
+                    toEstonian: ["pann", "pott", "kaas", "kulp"],
+                    toRussian: ["сковорода", "кастрюля", "крышка", "половник"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "pann",
+                russian: "сковорода",
+                answers: {
+                    toEstonian: ["pott", "pann", "kaas", "spaatel"],
+                    toRussian: ["кастрюля", "сковорода", "крышка", "лопатка"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "kaas",
+                russian: "крышка",
+                answers: {
+                    toEstonian: ["pott", "pann", "kaas", "kulp"],
+                    toRussian: ["кастрюля", "сковорода", "крышка", "половник"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "kulp",
+                russian: "половник",
+                answers: {
+                    toEstonian: ["kahvel", "lusikas", "kulp", "spaatel"],
+                    toRussian: ["вилка", "ложка", "половник", "лопатка"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "spaatel",
+                russian: "лопатка",
+                answers: {
+                    toEstonian: ["kulp", "kahvel", "spaatel", "nuga"],
+                    toRussian: ["половник", "вилка", "лопатка", "нож"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "köögirätt",
+                russian: "кухонное полотенце",
+                answers: {
+                    toEstonian: ["põll", "köögirätt", "käterätik", "lapp"],
+                    toRussian: ["фартук", "кухонное полотенце", "полотенце", "тряпка"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "põll",
+                russian: "фартук",
+                answers: {
+                    toEstonian: ["köögirätt", "põll", "kindad", "lapp"],
+                    toRussian: ["кухонное полотенце", "фартук", "перчатки", "тряпка"]
+                },
+                correct: 1
+            },
+ {
+                estonian: "salvrätik",
+                russian: "салфетка",
+                answers: {
+                    toEstonian: ["laudlina", "salvrätik", "lauamatt", "linik"],
+                    toRussian: ["скатерть", "салфетка", "подставка", "салфетница"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "laudlina",
+                russian: "скатерть",
+                answers: {
+                    toEstonian: ["salvrätik", "laudlina", "lauamatt", "linik"],
+                    toRussian: ["салфетка", "скатерть", "подставка", "дорожка"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "soolatoos",
+                russian: "солонка",
+                answers: {
+                    toEstonian: ["piprатoos", "soolatoos", "maitseainetoos", "suhkrutoos"],
+                    toRussian: ["перечница", "солонка", "специи", "сахарница"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "pipratoos",
+                russian: "перечница",
+                answers: {
+                    toEstonian: ["soolatoos", "pipratoos", "maitseainetoos", "suhkrutoos"],
+                    toRussian: ["солонка", "перечница", "специи", "сахарница"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "suhkrutoos",
+                russian: "сахарница",
+                answers: {
+                    toEstonian: ["soolatoos", "pipratoos", "suhkrutoos", "maitseainetoos"],
+                    toRussian: ["солонка", "перечница", "сахарница", "специи"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "küünlajalg",
+                russian: "подсвечник",
+                answers: {
+                    toEstonian: ["vaas", "küünlajalg", "alustass", "pudeliavaja"],
+                    toRussian: ["ваза", "подсвечник", "блюдце", "открывалка"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "vaas",
+                russian: "ваза",
+                answers: {
+                    toEstonian: ["küünlajalg", "vaas", "kauss", "kann"],
+                    toRussian: ["подсвечник", "ваза", "миска", "кувшин"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "pudeliavaja",
+                russian: "открывалка",
+                answers: {
+                    toEstonian: ["korgitser", "pudeliavaja", "nuga", "kahvel"],
+                    toRussian: ["штопор", "открывалка", "нож", "вилка"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "korgitser",
+                russian: "штопор",
+                answers: {
+                    toEstonian: ["pudeliavaja", "korgitser", "nuga", "lusikas"],
+                    toRussian: ["открывалка", "штопор", "нож", "ложка"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "serveerimisalus",
+                russian: "поднос",
+                answers: {
+                    toEstonian: ["taldrik", "serveerimisalus", "lauamatt", "kauss"],
+                    toRussian: ["тарелка", "поднос", "подставка", "миска"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "lauamatt",
+                russian: "подставка под горячее",
+                answers: {
+                    toEstonian: ["laudlina", "lauamatt", "salvrätik", "alustass"],
+                    toRussian: ["скатерть", "подставка под горячее", "салфетка", "блюдце"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "alustass",
+                russian: "блюдце",
+                answers: {
+                    toEstonian: ["tass", "alustass", "taldrik", "kauss"],
+                    toRussian: ["чашка", "блюдце", "тарелка", "миска"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "salvrätikhoidja",
+                russian: "салфетница",
+                answers: {
+                    toEstonian: ["soolatoos", "salvrätikhoidja", "pipratoos", "lauamatt"],
+                    toRussian: ["солонка", "салфетница", "перечница", "подставка"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "pajakindad",
+                russian: "прихватки",
+                answers: {
+                    toEstonian: ["põll", "pajakindad", "köögirätt", "lapp"],
+                    toRussian: ["фартук", "прихватки", "кухонное полотенце", "тряпка"]
                 },
                 correct: 1
             }
@@ -2521,6 +3314,365 @@ clothes: {
             }
         ]
     },
+city: {
+    name: "Город",
+    questions: [
+        {
+            estonian: "Где люди живут?",
+            russian: "Где живут люди?",
+            answers: {
+                toEstonian: ["mets", "meri", "linn", "mägi"],
+                toRussian: ["лес", "море", "город", "гора"]
+            },
+            correct: 2
+        },
+        {
+            estonian: "По чему мы ходим в городе?",
+            russian: "По чему мы ходим в городе?",
+            answers: {
+                toEstonian: ["tee", "jõgi", "meri", "õhk"],
+                toRussian: ["дорога", "река", "море", "воздух"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "Где дети играют?",
+            russian: "Где дети играют?",
+            answers: {
+                toEstonian: ["kool", "park", "pood", "kodu"],
+                toRussian: ["школа", "парк", "магазин", "дом"]
+            },
+            correct: 1
+        },
+        {
+            estonian: "Где мы покупаем продукты?",
+            russian: "Где мы покупаем продукты?",
+            answers: {
+                toEstonian: ["pood", "kodu", "kool", "haigla"],
+                toRussian: ["магазин", "дом", "школа", "больница"]
+            },
+            correct: 0
+        },
+        // ... и так далее
+
+        {
+            estonian: "Что находится в центре города?",
+            russian: "Что находится в центре города?",
+            answers: {
+                toEstonian: ["mets", "põld", "linnuse müür", "jõgi"],
+                toRussian: ["лес", "поле", "крепостная стена", "река"]
+            },
+            correct: 2
+        },
+        {
+            estonian: "Где мы учимся?",
+            russian: "Где мы учимся?",
+            answers: {
+                toEstonian: ["kool", "kodu", "park", "pood"],
+                toRussian: ["школа", "дом", "парк", "магазин"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "Что стоит на улице?",
+            russian: "Что стоит на улице?",
+            answers: {
+                toEstonian: ["laud", "tool", "voodi", "maja"],
+                toRussian: ["стол", "стул", "кровать", "дом"]
+            },
+            correct: 3
+        },
+        // ... и так далее
+
+        // Транспорт
+        {
+            estonian: "Чем мы ездим по городу?",
+            russian: "Чем мы ездим по городу?",
+            answers: {
+                toEstonian: ["auto", "laev", "rong", "lennuk"],
+                toRussian: ["машина", "корабль", "поезд", "самолет"]
+            },
+            correct: 0
+        },
+        // Здания
+        {
+            estonian: "Где мы работаем?",
+            russian: "Где мы работаем?",
+            answers: {
+                toEstonian: ["kontor", "kodu", "park", "pood"],
+                toRussian: ["офис", "дом", "парк", "магазин"]
+            },
+            correct: 0
+        },
+        // Природа в городе
+        {
+            estonian: "Что растет в городском парке?",
+            russian: "Что растет в городском парке?",
+            answers: {
+                toEstonian: ["puu", "kivi", "maja", "auto"],
+                toRussian: ["дерево", "камень", "дом", "машина"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "Где люди живут?",
+            russian: "Где живут люди?",
+            answers: {
+                toEstonian: ["mets", "meri", "linn", "mägi"],
+                toRussian: ["лес", "море", "город", "гора"]
+            },
+            correct: 2
+        },
+        {
+            estonian: "По чему мы ходим в городе?",
+            russian: "По чему мы ходим в городе?",
+            answers: {
+                toEstonian: ["tee", "jõgi", "meri", "õhk"],
+                toRussian: ["дорога", "река", "море", "воздух"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "Где дети играют?",
+            russian: "Где дети играют?",
+            answers: {
+                toEstonian: ["kool", "park", "pood", "kodu"],
+                toRussian: ["школа", "парк", "магазин", "дом"]
+            },
+            correct: 1
+        },
+        {
+            estonian: "Где мы покупаем продукты?",
+            russian: "Где мы покупаем продукты?",
+            answers: {
+                toEstonian: ["pood", "kodu", "kool", "haigla"],
+                toRussian: ["магазин", "дом", "школа", "больница"]
+            },
+            correct: 0
+        },
+      
+         {
+            estonian: "Что стоит на улице?",
+            russian: "Что стоит на улице?",
+            answers: {
+                toEstonian: ["laud", "tool", "voodi", "maja"],
+                toRussian: ["стол", "стул", "кровать", "дом"]
+            },
+            correct: 3
+        },
+        // ... и так далее
+
+        // Транспорт
+        {
+            estonian: "Чем мы ездим по городу?",
+            russian: "Чем мы ездим по городу?",
+            answers: {
+                toEstonian: ["auto", "laev", "rong", "lennuk"],
+                toRussian: ["машина", "корабль", "поезд", "самолет"]
+            },
+            correct: 0
+        },
+        // Здания
+        {
+            estonian: "Где мы работаем?",
+            russian: "Где мы работаем?",
+            answers: {
+                toEstonian: ["kontor", "kodu", "park", "pood"],
+                toRussian: ["офис", "дом", "парк", "магазин"]
+            },
+            correct: 0
+        },
+        // Природа в городе
+        {
+            estonian: "Что растет в городском парке?",
+            russian: "Что растет в городском парке?",
+            answers: {
+                toEstonian: ["puu", "kivi", "maja", "auto"],
+                toRussian: ["дерево", "камень", "дом", "машина"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "Где мы покупаем одежду?",
+            russian: "Где мы покупаем одежду?",
+            answers: {
+                toEstonian: ["pood", "kodu", "kool", "haigla"],
+                toRussian: ["магазин", "дом", "школа", "больница"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "Что есть почти на каждой улице?",
+            russian: "Что есть почти на каждой улице?",
+            answers: {
+                toEstonian: ["mets", "jõgi", "maja", "laev"],
+                toRussian: ["лес", "река", "дом", "корабль"]
+            },
+            correct: 2
+        },
+        {
+            estonian: "Куда мы идем, чтобы посмотреть фильм?",
+            russian: "Куда мы идем, чтобы посмотреть фильм?",
+            answers: {
+                toEstonian: ["kino", "pood", "kodu", "kool"],
+                toRussian: ["кинотеатр", "магазин", "дом", "школа"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "Где мы можем почитать книгу?",
+            russian: "Где мы можем почитать книгу?",
+            answers: {
+                toEstonian: ["raamatukogu", "pood", "park", "kino"],
+                toRussian: ["библиотека", "магазин", "парк", "кинотеатр"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "Что есть на крыше многих домов?",
+            russian: "Что есть на крыше многих домов?",
+            answers: {
+                toEstonian: ["aken", "uks", "katus", "trepp"],
+                toRussian: ["окно", "дверь", "крыша", "лестница"]
+            },
+            correct: 2
+        },
+        {
+            estonian: "Чем мы ездим в общественном транспорте?",
+            russian: "Чем мы ездим в общественном транспорте?",
+            answers: {
+                toEstonian: ["autobuss", "jalgratas", "mootorratas", "laev"],
+                toRussian: ["автобус", "велосипед", "мотоцикл", "корабль"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "Где мы можем купить хлеб?",
+            russian: "Где мы можем купить хлеб?",
+            answers: {
+                toEstonian: ["pagariäri", "apteek", "raamatukogu", "kino"],
+                toRussian: ["пекарня", "аптека", "библиотека", "кинотеатр"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "Куда мы идем, когда болеем?",
+            russian: "Куда мы идем, когда болеем?",
+            answers: {
+                toEstonian: ["haigla", "kool", "park", "pood"],
+                toRussian: ["больница", "школа", "парк", "магазин"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "Где мы можем посмотреть на картины?",
+            russian: "Где мы можем посмотреть на картины?",
+            answers: {
+                toEstonian: ["muuseum", "kino", "pood", "raamatukogu"],
+                toRussian: ["музей", "кинотеатр", "магазин", "библиотека"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "Где люди живут?",
+            russian: "Где живут люди?",
+            answers: {
+                toEstonian: ["mets", "meri", "linn", "mägi"],
+                toRussian: ["лес", "море", "город", "гора"]
+            },
+            correct: 2
+        },
+        {
+            estonian: "По чему мы ходим в городе?",
+            russian: "По чему мы ходим в городе?",
+            answers: {
+                toEstonian: ["tee", "jõgi", "meri", "õhk"],
+                toRussian: ["дорога", "река", "море", "воздух"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "Где дети играют?",
+            russian: "Где дети играют?",
+            answers: {
+                toEstonian: ["kool", "park", "pood", "kodu"],
+                toRussian: ["школа", "парк", "магазин", "дом"]
+            },
+            correct: 1
+        },
+        {
+            estonian: "Где мы покупаем продукты?",
+            russian: "Где мы покупаем продукты?",
+            answers: {
+                toEstonian: ["pood", "kodu", "kool", "haigla"],
+                toRussian: ["магазин", "дом", "школа", "больница"]
+            },
+            correct: 0
+        },
+        // ... и так далее
+
+        {
+            estonian: "Что находится в центре города?",
+            russian: "Что находится в центре города?",
+            answers: {
+                toEstonian: ["mets", "põld", "linnuse müür", "jõgi"],
+                toRussian: ["лес", "поле", "крепостная стена", "река"]
+            },
+            correct: 2
+        },
+        {
+            estonian: "Где мы учимся?",
+            russian: "Где мы учимся?",
+            answers: {
+                toEstonian: ["kool", "kodu", "park", "pood"],
+                toRussian: ["школа", "дом", "парк", "магазин"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "Что стоит на улице?",
+            russian: "Что стоит на улице?",
+            answers: {
+                toEstonian: ["laud", "tool", "voodi", "maja"],
+                toRussian: ["стол", "стул", "кровать", "дом"]
+            },
+            correct: 3
+        },
+        // ... и так далее
+
+        // Транспорт
+        {
+            estonian: "Чем мы ездим по городу?",
+            russian: "Чем мы ездим по городу?",
+            answers: {
+                toEstonian: ["auto", "laev", "rong", "lennuk"],
+                toRussian: ["машина", "корабль", "поезд", "самолет"]
+            },
+            correct: 0
+        },
+        // Здания
+        {
+            estonian: "Где мы работаем?",
+            russian: "Где мы работаем?",
+            answers: {
+                toEstonian: ["kontor", "kodu", "park", "pood"],
+                toRussian: ["офис", "дом", "парк", "магазин"]
+            },
+            correct: 0
+        },
+        // Природа в городе
+        {
+            estonian: "Что растет в городском парке?",
+            russian: "Что растет в городском парке?",
+            answers: {
+                toEstonian: ["puu", "kivi", "maja", "auto"],
+                toRussian: ["дерево", "камень", "дом", "машина"]
+            },
+            correct: 0
+        },
+        // ... и так далее
+    ]
+},
     weekdays: {
         name: "Дни недели",
         questions: [
