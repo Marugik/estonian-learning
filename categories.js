@@ -375,6 +375,389 @@ const CATEGORIES = {
             }
         ]
     },
+body_parts: {
+        name: "Части тела",
+        questions: [
+            {
+                estonian: "pea",
+                russian: "голова",
+                answers: {
+                    toEstonian: ["käsi", "pea", "jalg", "selg"],
+                    toRussian: ["рука", "голова", "нога", "спина"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "käsi",
+                russian: "рука",
+                answers: {
+                    toEstonian: ["jalg", "käsi", "pea", "kõht"],
+                    toRussian: ["нога", "рука", "голова", "живот"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "jalg",
+                russian: "нога",
+                answers: {
+                    toEstonian: ["käsi", "pea", "jalg", "selg"],
+                    toRussian: ["рука", "голова", "нога", "спина"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "selg",
+                russian: "спина",
+                answers: {
+                    toEstonian: ["kõht", "rind", "selg", "õlg"],
+                    toRussian: ["живот", "грудь", "спина", "плечо"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "kõht",
+                russian: "живот",
+                answers: {
+                    toEstonian: ["rind", "kõht", "selg", "kael"],
+                    toRussian: ["грудь", "живот", "спина", "шея"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "nägu",
+                russian: "лицо",
+                answers: {
+                    toEstonian: ["pea", "nägu", "kael", "õlg"],
+                    toRussian: ["голова", "лицо", "шея", "плечо"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "silm",
+                russian: "глаз",
+                answers: {
+                    toEstonian: ["nina", "silm", "suu", "kõrv"],
+                    toRussian: ["нос", "глаз", "рот", "ухо"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "nina",
+                russian: "нос",
+                answers: {
+                    toEstonian: ["silm", "nina", "suu", "kõrv"],
+                    toRussian: ["глаз", "нос", "рот", "ухо"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "suu",
+                russian: "рот",
+                answers: {
+                    toEstonian: ["nina", "kõrv", "suu", "keel"],
+                    toRussian: ["нос", "ухо", "рот", "язык"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "kõrv",
+                russian: "ухо",
+                answers: {
+                    toEstonian: ["silm", "nina", "suu", "kõrv"],
+                    toRussian: ["глаз", "нос", "рот", "ухо"]
+                },
+                correct: 3
+            },
+            {
+                estonian: "kael",
+                russian: "шея",
+                answers: {
+                    toEstonian: ["õlg", "kael", "rind", "selg"],
+                    toRussian: ["плечо", "шея", "грудь", "спина"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "õlg",
+                russian: "плечо",
+                answers: {
+                    toEstonian: ["käsi", "õlg", "küünarnukk", "ranne"],
+                    toRussian: ["рука", "плечо", "локоть", "запястье"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "küünarnukk",
+                russian: "локоть",
+                answers: {
+                    toEstonian: ["õlg", "küünarnukk", "ranne", "sõrm"],
+                    toRussian: ["плечо", "локоть", "запястье", "палец"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "ranne",
+                russian: "запястье",
+                answers: {
+                    toEstonian: ["küünarnukk", "ranne", "sõrm", "käsi"],
+                    toRussian: ["локоть", "запястье", "палец", "рука"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "sõrm",
+                russian: "палец",
+                answers: {
+                    toEstonian: ["ranne", "sõrm", "küüs", "käsi"],
+                    toRussian: ["запястье", "палец", "ноготь", "рука"]
+                },
+                correct: 1
+            },
+{
+                estonian: "küüs",
+                russian: "ноготь",
+                answers: {
+                    toEstonian: ["sõrm", "küüs", "varvas", "kand"],
+                    toRussian: ["палец", "ноготь", "палец ноги", "пятка"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "varvas",
+                russian: "палец ноги",
+                answers: {
+                    toEstonian: ["kand", "varvas", "küüs", "põlv"],
+                    toRussian: ["пятка", "палец ноги", "ноготь", "колено"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "põlv",
+                russian: "колено",
+                answers: {
+                    toEstonian: ["reis", "põlv", "säär", "kand"],
+                    toRussian: ["бедро", "колено", "голень", "пятка"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "reis",
+                russian: "бедро",
+                answers: {
+                    toEstonian: ["põlv", "reis", "säär", "puus"],
+                    toRussian: ["колено", "бедро", "голень", "бедро"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "säär",
+                russian: "голень",
+                answers: {
+                    toEstonian: ["reis", "põlv", "säär", "kand"],
+                    toRussian: ["бедро", "колено", "голень", "пятка"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "kand",
+                russian: "пятка",
+                answers: {
+                    toEstonian: ["varvas", "säär", "kand", "põlv"],
+                    toRussian: ["палец ноги", "голень", "пятка", "колено"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "rind",
+                russian: "грудь",
+                answers: {
+                    toEstonian: ["kõht", "rind", "selg", "õlg"],
+                    toRussian: ["живот", "грудь", "спина", "плечо"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "puus",
+                russian: "бедро (тазобедренный сустав)",
+                answers: {
+                    toEstonian: ["reis", "puus", "põlv", "selg"],
+                    toRussian: ["бедро", "тазобедренный сустав", "колено", "спина"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "keel",
+                russian: "язык",
+                answers: {
+                    toEstonian: ["suu", "keel", "hammas", "huul"],
+                    toRussian: ["рот", "язык", "зуб", "губа"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "hammas",
+                russian: "зуб",
+                answers: {
+                    toEstonian: ["keel", "suu", "hammas", "huul"],
+                    toRussian: ["язык", "рот", "зуб", "губа"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "huul",
+                russian: "губа",
+                answers: {
+                    toEstonian: ["suu", "keel", "hammas", "huul"],
+                    toRussian: ["рот", "язык", "зуб", "губа"]
+                },
+                correct: 3
+            },
+            {
+                estonian: "kulm",
+                russian: "бровь",
+                answers: {
+                    toEstonian: ["ripsmed", "kulm", "laug", "juuksed"],
+                    toRussian: ["ресницы", "бровь", "веко", "волосы"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "ripsmed",
+                russian: "ресницы",
+                answers: {
+                    toEstonian: ["kulm", "ripsmed", "laug", "juuksed"],
+                    toRussian: ["бровь", "ресницы", "веко", "волосы"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "juuksed",
+                russian: "волосы",
+                answers: {
+                    toEstonian: ["kulm", "ripsmed", "laug", "juuksed"],
+                    toRussian: ["бровь", "ресницы", "веко", "волосы"]
+                },
+                correct: 3
+            },
+{
+                estonian: "laug",
+                russian: "веко",
+                answers: {
+                    toEstonian: ["kulm", "ripsmed", "laug", "silm"],
+                    toRussian: ["бровь", "ресницы", "веко", "глаз"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "otsmik",
+                russian: "лоб",
+                answers: {
+                    toEstonian: ["põsk", "otsmik", "lõug", "nina"],
+                    toRussian: ["щека", "лоб", "подбородок", "нос"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "põsk",
+                russian: "щека",
+                answers: {
+                    toEstonian: ["otsmik", "põsk", "lõug", "kõrv"],
+                    toRussian: ["лоб", "щека", "подбородок", "ухо"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "lõug",
+                russian: "подбородок",
+                answers: {
+                    toEstonian: ["põsk", "otsmik", "lõug", "kael"],
+                    toRussian: ["щека", "лоб", "подбородок", "шея"]
+                },
+                correct: 2
+            },
+            {
+                estonian: "ranne",
+                russian: "запястье",
+                answers: {
+                    toEstonian: ["küünarnukk", "ranne", "õlg", "käsi"],
+                    toRussian: ["локоть", "запястье", "плечо", "рука"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "peopesa",
+                russian: "ладонь",
+                answers: {
+                    toEstonian: ["ranne", "peopesa", "sõrm", "küüs"],
+                    toRussian: ["запястье", "ладонь", "палец", "ноготь"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "küünar",
+                russian: "предплечье",
+                answers: {
+                    toEstonian: ["õlg", "küünar", "ranne", "käsivars"],
+                    toRussian: ["плечо", "предплечье", "запястье", "рука"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "kõri",
+                russian: "горло",
+                answers: {
+                    toEstonian: ["kael", "kõri", "rind", "lõug"],
+                    toRussian: ["шея", "горло", "грудь", "подбородок"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "kurk",
+                russian: "горло (внутри)",
+                answers: {
+                    toEstonian: ["kõri", "kurk", "keel", "suu"],
+                    toRussian: ["горло", "горло (внутри)", "язык", "рот"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "pahkluu",
+                russian: "лодыжка",
+                answers: {
+                    toEstonian: ["kand", "pahkluu", "varvas", "säär"],
+                    toRussian: ["пятка", "лодыжка", "палец ноги", "голень"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "küünarvars",
+                russian: "предплечье",
+                answers: {
+                    toEstonian: ["õlavars", "küünarvars", "ranne", "käsi"],
+                    toRussian: ["плечо", "предплечье", "запястье", "рука"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "õlavars",
+                russian: "плечо (часть руки)",
+                answers: {
+                    toEstonian: ["küünarvars", "õlavars", "käsi", "õlg"],
+                    toRussian: ["предплечье", "плечо", "рука", "плечо (сустав)"]
+                },
+                correct: 1
+            },
+            {
+                estonian: "pöid",
+                russian: "стопа",
+                answers: {
+                    toEstonian: ["kand", "pöid", "varvas", "pahkluu"],
+                    toRussian: ["пятка", "стопа", "палец ноги", "лодыжка"]
+                },
+                correct: 1
+            }
+        ]
+    },
     numbers: {
         name: "Числа",
         questions: [
