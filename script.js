@@ -41,11 +41,33 @@ function setMode(estonianToRussian) {
 
 // Начало квиза
 function startQuiz() {
-    playerName = document.getElementById('player-name').value.trim();
+   function startQuiz() {
+    const playerName = document.getElementById('player-name').value;
+    const questionCount = document.getElementById('question-count').value;
+
     if (!playerName) {
-        alert('Пожалуйста, введите ваше имя');
+        alert('Пожалуйста, введите ваше имя.');
         return;
     }
+
+    // Логика для установки количества вопросов
+    let totalQuestions;
+    if (questionCount === 'all') {
+        totalQuestions = allQuestions.length; // Предполагается, что allQuestions - это массив всех вопросов
+    } else {
+        totalQuestions = parseInt(questionCount);
+    }
+
+    // Логика для начала викторины с выбранным количеством вопросов
+    startQuizWithQuestions(totalQuestions);
+}
+
+function startQuizWithQuestions(totalQuestions) {
+    // Ваша логика для начала викторины с заданным количеством вопросов
+    console.log(`Начинаем викторину с ${totalQuestions} вопросами.`);
+    // Остальная логика для начала викторины
+}
+
 
     const selectedCategories = Array.from(document.querySelectorAll('input[name="category"]:checked'))
         .map(cb => cb.value);

@@ -52,17 +52,27 @@
                     <div id="progress-fill"></div>
                 </div>
             </div>
-            
+            <!-- Выбор количества вопросов -->
+<div class="question-count-selection">
+    <h3>Выберите количество вопросов:</h3>
+    <select id="question-count">
+        <option value="all">Все</option>
+        <option value="20">20</option>
+        <option value="50">50</option>
+    </select>
+</div>
+
             <!-- Контейнер с вопросом -->
             <div class="quiz-container">
                 <div id="question" class="question">
                     <!-- Вопрос будет добавлен через JavaScript -->
                 </div>
                 <div class="answers">
-                    <button class="answer-btn" onclick="checkAnswer(0)"></button>
-                    <button class="answer-btn" onclick="checkAnswer(1)"></button>
-                    <button class="answer-btn" onclick="checkAnswer(2)"></button>
-                    <button class="answer-btn" onclick="checkAnswer(3)"></button>
+                    <button class="answer-btn" onclick="checkAnswer(0)">Ответ 1</button>
+<button class="answer-btn" onclick="checkAnswer(1)">Ответ 2</button>
+<button class="answer-btn" onclick="checkAnswer(2)">Ответ 3</button>
+<button class="answer-btn" onclick="checkAnswer(3)">Ответ 4</button>
+
                 </div>
                 <div id="translation-hint" class="translation-hint">
                     <!-- Подсказка с переводом будет добавлена через JavaScript -->
@@ -101,5 +111,6 @@
     <!-- Скрипты -->
     <script src="categories.js"></script>
     <script src="script.js"></script>
+    <script src="other-script.js"></script>
 </body>
 </html>
