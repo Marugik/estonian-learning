@@ -1245,6 +1245,375 @@ animals: {
         }
     ]
 },
+
+pharmacy: {
+    name: "Аптека",
+    questions: [
+        {
+            estonian: "ravim",
+            russian: "лекарство",
+            answers: {
+                toEstonian: ["tablett", "ravim", "retsept", "süst"],
+                toRussian: ["таблетка", "лекарство", "рецепт", "укол"]
+            },
+            correct: 1
+        },
+        {
+            estonian: "tablett",
+            russian: "таблетка",
+            answers: {
+                toEstonian: ["tablett", "süst", "ravim", "retsept"],
+                toRussian: ["таблетка", "укол", "лекарство", "рецепт"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "retsept",
+            russian: "рецепт",
+            answers: {
+                toEstonian: ["ravim", "retsept", "süst", "tablett"],
+                toRussian: ["лекарство", "рецепт", "укол", "таблетка"]
+            },
+            correct: 1
+        },
+        {
+            estonian: "süst",
+            russian: "укол",
+            answers: {
+                toEstonian: ["ravim", "tablett", "retsept", "süst"],
+                toRussian: ["лекарство", "таблетка", "рецепт", "укол"]
+            },
+            correct: 3
+        },
+        {
+            estonian: "salv",
+            russian: "мазь",
+            answers: {
+                toEstonian: ["salv", "tilgad", "kreem", "ravim"],
+                toRussian: ["мазь", "капли", "крем", "лекарство"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "tilgad",
+            russian: "капли",
+            answers: {
+                toEstonian: ["tilgad", "kreem", "salv", "retsept"],
+                toRussian: ["капли", "крем", "мазь", "рецепт"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "kreem",
+            russian: "крем",
+            answers: {
+                toEstonian: ["tilgad", "salv", "ravim", "kreem"],
+                toRussian: ["капли", "мазь", "лекарство", "крем"]
+            },
+            correct: 3
+        },
+        {
+            estonian: "siirup",
+            russian: "сироп",
+            answers: {
+                toEstonian: ["tablett", "siirup", "ravim", "süst"],
+                toRussian: ["таблетка", "сироп", "лекарство", "укол"]
+            },
+            correct: 1
+        },
+        {
+            estonian: "vitamiinid",
+            russian: "витамины",
+            answers: {
+                toEstonian: ["ravim", "tablett", "kreem", "vitamiinid"],
+                toRussian: ["лекарство", "таблетка", "крем", "витамины"]
+            },
+            correct: 3
+        },
+        {
+            estonian: "haavaside",
+            russian: "бинт",
+            answers: {
+                toEstonian: ["plaastrid", "haavaside", "ravim", "kreem"],
+                toRussian: ["пластыри", "бинт", "лекарство", "крем"]
+            },
+            correct: 1
+        },
+        {
+            estonian: "plaastrid",
+            russian: "пластыри",
+            answers: {
+                toEstonian: ["plaastrid", "haavaside", "süst", "kreem"],
+                toRussian: ["пластыри", "бинт", "укол", "крем"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "kurguvalu ravim",
+            russian: "лекарство от боли в горле",
+            answers: {
+                toEstonian: ["ravim", "kurguvalu ravim", "tablett", "süst"],
+                toRussian: ["лекарство", "лекарство от боли в горле", "таблетка", "укол"]
+            },
+            correct: 1
+        },
+        {
+            estonian: "allergia ravim",
+            russian: "лекарство от аллергии",
+            answers: {
+                toEstonian: ["tablett", "ravim", "allergia ravim", "siirup"],
+                toRussian: ["таблетка", "лекарство", "лекарство от аллергии", "сироп"]
+            },
+            correct: 2
+        },
+        {
+            estonian: "valuvaigisti",
+            russian: "обезболивающее",
+            answers: {
+                toEstonian: ["valuvaigisti", "kreem", "tablett", "ravim"],
+                toRussian: ["обезболивающее", "крем", "таблетка", "лекарство"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "palavikualandaja",
+            russian: "жаропонижающее",
+            answers: {
+                toEstonian: ["tablett", "ravim", "palavikualandaja", "valuvaigisti"],
+                toRussian: ["таблетка", "лекарство", "жаропонижающее", "обезболивающее"]
+            },
+            correct: 2
+        },
+        {
+            estonian: "silmatilgad",
+            russian: "глазные капли",
+            answers: {
+                toEstonian: ["tablett", "tilgad", "silmatilgad", "kreem"],
+                toRussian: ["таблетка", "капли", "глазные капли", "крем"]
+            },
+            correct: 2
+        },
+        {
+            estonian: "ravimikapp",
+            russian: "аптечка",
+            answers: {
+                toEstonian: ["kreem", "plaastrid", "süst", "ravimikapp"],
+                toRussian: ["крем", "пластыри", "укол", "аптечка"]
+            },
+            correct: 3
+        },
+        {
+            estonian: "külmapakk",
+            russian: "холодный компресс",
+            answers: {
+                toEstonian: ["külmapakk", "plaastrid", "tablett", "haavaside"],
+                toRussian: ["холодный компресс", "пластыри", "таблетка", "бинт"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "termomeeter",
+            russian: "градусник",
+            answers: {
+                toEstonian: ["tablett", "haavaside", "termomeeter", "tilgad"],
+                toRussian: ["таблетка", "бинт", "градусник", "капли"]
+            },
+            correct: 2
+        },
+        {
+            estonian: "desinfitseerimisvahend",
+            russian: "дезинфицирующее средство",
+            answers: {
+                toEstonian: ["plaastrid", "tablett", "kreem", "desinfitseerimisvahend"],
+                toRussian: ["пластыри", "таблетка", "крем", "дезинфицирующее средство"]
+            },
+            correct: 3
+        },
+        {
+            estonian: "külmakreem",
+            russian: "охлаждающий крем",
+            answers: {
+                toEstonian: ["külmakreem", "tablett", "plaastrid", "ravim"],
+                toRussian: ["охлаждающий крем", "таблетка", "пластыри", "лекарство"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "veevaba seep",
+            russian: "сухое мыло",
+            answers: {
+                toEstonian: ["veevaba seep", "kreem", "tablett", "tilgad"],
+                toRussian: ["сухое мыло", "крем", "таблетка", "капли"]
+            },
+            correct: 0
+        },
+                {
+            estonian: "kuumakreem",
+            russian: "разогревающий крем",
+            answers: {
+                toEstonian: ["külmakreem", "kuumakreem", "süst", "haavaside"],
+                toRussian: ["охлаждающий крем", "разогревающий крем", "укол", "бинт"]
+            },
+            correct: 1
+        },
+        {
+            estonian: "vererõhuaparaat",
+            russian: "тонометр",
+            answers: {
+                toEstonian: ["termomeeter", "kreem", "vererõhuaparaat", "ravimikapp"],
+                toRussian: ["градусник", "крем", "тонометр", "аптечка"]
+            },
+            correct: 2
+        },
+        {
+            estonian: "hambapasta",
+            russian: "зубная паста",
+            answers: {
+                toEstonian: ["plaastrid", "hambapasta", "tilgad", "ravim"],
+                toRussian: ["пластыри", "зубная паста", "капли", "лекарство"]
+            },
+            correct: 1
+        },
+        {
+            estonian: "hambahari",
+            russian: "зубная щетка",
+            answers: {
+                toEstonian: ["plaastrid", "hambahari", "süst", "tablett"],
+                toRussian: ["пластыри", "зубная щетка", "укол", "таблетка"]
+            },
+            correct: 1
+        },
+        {
+            estonian: "köharohi",
+            russian: "лекарство от кашля",
+            answers: {
+                toEstonian: ["köharohi", "ravim", "siirup", "tablett"],
+                toRussian: ["лекарство от кашля", "лекарство", "сироп", "таблетка"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "ninapump",
+            russian: "носососка",
+            answers: {
+                toEstonian: ["ninapump", "termomeeter", "kreem", "tilgad"],
+                toRussian: ["носососка", "градусник", "крем", "капли"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "haavapuhastusvahend",
+            russian: "средство для обработки ран",
+            answers: {
+                toEstonian: ["plaastrid", "külmakreem", "haavapuhastusvahend", "süst"],
+                toRussian: ["пластыри", "охлаждающий крем", "средство для обработки ран", "укол"]
+            },
+            correct: 2
+        },
+        {
+            estonian: "nahaõli",
+            russian: "масло для кожи",
+            answers: {
+                toEstonian: ["nahaõli", "kreem", "tablett", "siirup"],
+                toRussian: ["масло для кожи", "крем", "таблетка", "сироп"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "näomask",
+            russian: "маска для лица",
+            answers: {
+                toEstonian: ["nahaõli", "näomask", "termomeeter", "plaastrid"],
+                toRussian: ["масло для кожи", "маска для лица", "градусник", "пластыри"]
+            },
+            correct: 1
+        },
+        {
+            estonian: "päikesekaitsekreem",
+            russian: "солнцезащитный крем",
+            answers: {
+                toEstonian: ["päikesekaitsekreem", "nahaõli", "külmakreem", "süst"],
+                toRussian: ["солнцезащитный крем", "масло для кожи", "охлаждающий крем", "укол"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "näopesugeel",
+            russian: "гель для умывания",
+            answers: {
+                toEstonian: ["näopesugeel", "nahaõli", "näomask", "siirup"],
+                toRussian: ["гель для умывания", "масло для кожи", "маска для лица", "сироп"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "rahustav tee",
+            russian: "успокаивающий чай",
+            answers: {
+                toEstonian: ["rahustav tee", "ravim", "tilgad", "kreem"],
+                toRussian: ["успокаивающий чай", "лекарство", "капли", "крем"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "unisustee",
+            russian: "чай для сна",
+            answers: {
+                toEstonian: ["rahustav tee", "tablett", "ravim", "unisustee"],
+                toRussian: ["успокаивающий чай", "таблетка", "лекарство", "чай для сна"]
+            },
+            correct: 3
+        },
+        {
+            estonian: "köhapastillid",
+            russian: "пастилки от кашля",
+            answers: {
+                toEstonian: ["köharohi", "köhapastillid", "siirup", "tilgad"],
+                toRussian: ["лекарство от кашля", "пастилки от кашля", "сироп", "капли"]
+            },
+            correct: 1
+        },
+        {
+            estonian: "haavaplaaster",
+            russian: "ранозаживляющий пластырь",
+            answers: {
+                toEstonian: ["haavaplaaster", "plaastrid", "külmapakk", "nahaõli"],
+                toRussian: ["ранозаживляющий пластырь", "пластыри", "холодный компресс", "масло для кожи"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "külmasprei",
+            russian: "охлаждающий спрей",
+            answers: {
+                toEstonian: ["külmasprei", "külmakreem", "nahaõli", "süst"],
+                toRussian: ["охлаждающий спрей", "охлаждающий крем", "масло для кожи", "укол"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "kuumakott",
+            russian: "грелка",
+            answers: {
+                toEstonian: ["külmasprei", "külmakott", "kuumakott", "kreem"],
+                toRussian: ["охлаждающий спрей", "холодный пакет", "грелка", "крем"]
+            },
+            correct: 2
+        },
+        {
+            estonian: "külmakott",
+            russian: "холодный пакет",
+            answers: {
+                toEstonian: ["külmakott", "kuumakott", "külmasprei", "nahaõli"],
+                toRussian: ["холодный пакет", "грелка", "охлаждающий спрей", "масло для кожи"]
+            },
+            correct: 0
+        }
+    ]
+},
+
+
+
 professions: {
         name: "Профессии",
         questions: [
