@@ -1614,6 +1614,7 @@ pharmacy: {
 
 
 
+
 professions: {
         name: "Профессии",
         questions: [
@@ -1792,7 +1793,134 @@ clothes: {
             }
         ]
     },
+homework: {
+    name: "Домашка",
+    questions: [
+        {
+            estonian: "Tere, Leelo! Aptshih! Vabandust!",
+            russian: "Привет, Лийло! Апчхи! Извини!",
+            answers: {
+                toEstonian: ["Tere, Mihkel!", "Tere, Leelo! Aptshih! Vabandust!", "Tere, Leelo! Vabandust!", "Tere, Mihkel! Kuidas läheb?"],
+                toRussian: ["Привет, Михкель!", "Привет, Лийло! Апчхи! Извини!", "Привет, Лийло! Извини!", "Привет, Михкель! Как дела?"]
+            },
+            correct: 1
+        },
+        {
+            estonian: "Kas saaksid pärast tööd apteeki minna?",
+            russian: "Можешь после работы сходить в аптеку?",
+            answers: {
+                toEstonian: ["Kas saaksid pärast tööd midagi tuua?", "Kas saaksid pärast tööd apteeki minna?", "Kas saaksid pärast tööd apelsinimahla tuua?", "Kas saaksid pärast tööd köhasiirupit tuua?"],
+                toRussian: ["Можешь что-то принести?", "Можешь после работы сходить в аптеку?", "Можешь после работы принести апельсиновый сок?", "Можешь после работы купить сироп от кашля?"]
+            },
+            correct: 1
+        },
+        {
+            estonian: "Mis kell sa jõuad?",
+            russian: "Во сколько ты придёшь?",
+            answers: {
+                toEstonian: ["Mis kell sa jõuad?", "Mis kell sa tuled?", "Mis kell sa apteeki jõuad?", "Mis kell sa töö lõpetad?"],
+                toRussian: ["Во сколько ты придёшь?", "Когда ты придёшь?", "Во сколько ты будешь у аптеки?", "Когда ты закончишь работу?"]
+            },
+            correct: 0
+        },
+        {
+            estonian: "Ma kirjutan üles: üks Coldrex, imemistabletid ja üks köhasiirup.",
+            russian: "Я записываю: один Coldrex, леденцы и сироп от кашля.",
+            answers: {
+                toEstonian: ["üks köhasiirup ja imemistabletid", "üks Coldrex ja üks köhasiirup", "üks Coldrex, imemistabletid ja üks köhasiirup", "üks apelsinimahl ja vaarikamoos"],
+                toRussian: ["Сироп от кашля и леденцы.", "Coldrex и сироп от кашля.", "Coldrex, леденцы и сироп от кашля.", "Апельсиновый сок и варенье из малины."]
+            },
+            correct: 2
+        },
+        {
+            estonian: "Oota üks hetk – ma kirjutan üles.",
+            russian: "Подожди минутку, я запишу.",
+            answers: {
+                toEstonian: ["Oota üks hetk – ma kirjutan üles.", "Oota üks hetk – ma tuletan meelde.", "Oota üks hetk – ma toon sulle köhasiirupi.", "Oota üks hetk – ma tulen apteegist."],
+                toRussian: ["Подожди минутку, я запишу.", "Подожди минутку, я вспомню.", "Подожди минутку, я принесу сироп от кашля.", "Подожди минутку, я схожу в аптеку."]
+            },
+            correct: 0
+        },
+{
+    estonian: "Kas sa mulle midagi poest tooksid?",
+    russian: "Можешь принести мне что-нибудь из магазина?",
+    answers: {
+        toEstonian: ["Kas sa mulle midagi apteegist tooksid?", "Kas sa mulle midagi poest tooksid?", "Kas sa mulle midagi töölt tooksid?", "Kas sa mulle midagi laualt tooksid?"],
+        toRussian: ["Можешь принести мне что-нибудь из аптеки?", "Можешь принести мне что-нибудь из магазина?", "Можешь принести мне что-нибудь с работы?", "Можешь принести мне что-нибудь со стола?"]
+    },
+    correct: 1
+},
+            {
+                estonian: "Mis on 'ravim' vene keeles?",
+                russian: "Как будет 'лекарство' на эстонском?",
+                answers: {
+                    toEstonian: ["ravim", "šampoon", "tähtis", "kätte saama"],
+                    toRussian: ["лекарство", "вкус", "важный", "дешевый"]
+                },
+                correct: 0
+            },
+            {
+                estonian: "Kuidas öelda 'важный' eesti keeles?",
+                russian: "Как перевести 'важный' на эстонский?",
+                answers: {
+                    toEstonian: ["tähtis", "odav", "vahe", "rohi"],
+                    toRussian: ["важный", "разница", "дешевый", "трава"]
+                },
+                correct: 0
+            },
+            {
+                estonian: "Mis tähendab 'kätte saama'?",
+                russian: "Как перевести 'получить в руки'?",
+                answers: {
+                    toEstonian: ["esitama", "kätte saama", "palu", "söö"],
+                    toRussian: [
+                        "получить в руки",
+                        "есть",
+                        "просить",
+                        "показывать"
+                    ]
+                },
+                correct: 1
+            },
+{
+    estonian: "Mul on vaja apelsinimahla ja vaarikamoosi.",
+    russian: "Мне нужно апельсиновый сок и малиновое варенье.",
+    answers: {
+        toEstonian: ["Mul on vaja vaarikamoosi ja mett.", "Mul on vaja apelsinimahla ja vaarikamoosi.", "Mul on vaja apelsinimahla ja sidrunit.", "Mul on vaja vaarikamoosi ja sidrunit."],
+        toRussian: ["Мне нужно малиновое варенье и мёд.", "Мне нужно апельсиновый сок и малиновое варенье.", "Мне нужно апельсиновый сок и лимон.", "Мне нужно малиновое варенье и лимон."]
+    },
+    correct: 1
+},
+{
+    estonian: "Kas sa raha said?",
+    russian: "Ты взял деньги?",
+    answers: {
+        toEstonian: ["Kas sa raha tõid?", "Kas sa raha said?", "Kas sa raha andsid?", "Kas sa raha jätsid?"],
+        toRussian: ["Ты принёс деньги?", "Ты взял деньги?", "Ты отдал деньги?", "Ты оставил деньги?"]
+    },
+    correct: 1
+},
+{
+    estonian: "Ma jõuan enne kolme.",
+    russian: "Я успею до трёх.",
+    answers: {
+        toEstonian: ["Ma jõuan enne kolme.", "Ma jõuan pärast kolme.", "Ma jõuan kell kolm.", "Ma jõuan enne kahte."],
+        toRussian: ["Я успею до трёх.", "Я успею после трёх.", "Я приду в три.", "Я успею до двух."]
+    },
+    correct: 0
+},
+{
+    estonian: "Tore! Aptshih!",
+    russian: "Здорово! Апчхи!",
+    answers: {
+        toEstonian: ["Tore! Aptshih!", "Väga hea! Aptshih!", "Hästi! Aptshih!", "Suurepärane! Aptshih!"],
+        toRussian: ["Здорово! Апчхи!", "Очень хорошо! Апчхи!", "Хорошо! Апчхи!", "Прекрасно! Апчхи!"]
+    },
+    correct: 0
+}
 
+    ]
+},
     city: {
         name: "Места в городе",
         questions: [
